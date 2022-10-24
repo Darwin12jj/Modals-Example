@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fb421a811f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Modals-Example</title>
+</head>
+<body>
+
+    <!-- MODAL-01 -->
+
+    <div class="position-relative" style="height: 350px;">
+        <div>
+            <button class="btn btn-success position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-01">
+                Launch modal
+            </button>
+        </div>
+        <div class="modal position-absolute fade show" id="example-01" aria-labelledly="exampleModalLabel" aria-modal="true" role="dialog" tabindex="-1">
+            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 380px; min-width: 320px;">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS.
+                    </div>
+
+                    <div class="modal-footer pb-4">
+                        <button class="btn btn-success col-12 btn-lg" data-bs-dismiss="modal">Save changes</button>
+                        <button class="btn btn-light col-12 btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL-02 -->
+    
+    <div class="space"></div>
+
+    <div class="position-relative" style="height: 310px;">
+        <div>
+            <button class="btn btn-success position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-02">
+                Launch modal
+            </button>
+        </div>
+        <div class="modal position-absolute fade show" id="example-02" aria-labelledly="exampleModalLabel" aria-modal="true" role="dialog" tabindex="-1">
+            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 380px; min-width: 320px;   ">
+                <div class="modal-content rounded-3">
+                    <div class="modal-body p-4 text-center">
+                        <h5 class="mb-0">Enable this setting?</h5>
+                        <p class="mb-0">
+                            You can always change your mind in your account settings.
+                        </p>
+                    </div>
+
+                    <div class="modal-footer p-0">
+                        <button class="btn btn-link col m-0 fs-6 text-decoration-none btn-lg border-end" data-bs-dismiss="modal">
+                            <strong>Yes, enable</strong>
+                        </button>
+                        <button class="btn btn-link col m-0 fs-6 text-decoration-none btn-lg" data-bs-dismiss="modal">No thanks</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <!-- MODAL-03 -->
+
+    <div class="position-relative" style="height: 610px;">
+        <div>
+            <button class="btn btn-success position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-03">
+                Launch modal
+            </button>
+        </div>
+        <div class="modal position-absolute fade show" id="example-03" aria-labelledly="exampleModalLabel" aria-modal="true" role="dialog" tabindex="-1">
+            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 380px; height: 590px;">
+                <div class="modal-content rounded-3">
+                    <div class="modal-body px-5 py-5 px-sm-5">
+                        <h2 class="mb-0 fw-bold text-start">What's new</h2>
+                        <ul class="d-grid gap-4 mt-5 mb-4 list-unstyled"> 
+                            <li class="d-flex gap-3">
+                                <i class="fa-solid fa-grip-vertical text-secondary col-2 text-start fa-3x"></i>
+                                <div class="col">
+                                    <h5 class="mb-0">
+                                        Grid view
+                                    </h5>
+                                    <p>Not into lists? Try the new grid view.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-3">
+                                <i class="fa-regular fa-bookmark text-warning col-2 text-start fa-3x"></i>
+                                <div class="col">
+                                    <h5 class="mb-0">
+                                        Bookmarks
+                                    </h5>
+                                    <p>Save items you love for easy access later.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-3">
+                                <i class="fa-solid fa-film text-primary col-2 text-start fa-3x"></i>
+                                <div class="col">
+                                    <h5 class="mb-0">                         
+                                        Video embeds
+                                    </h5>
+                                    <p>Share videos wherever you go.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary btn-lg col-12 mt-5">
+                            Great, thanks!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <!-- MODAL-04 -->
+
+    <div class="position-relative" style="height: 690px;">
+        <div>
+            <button class="btn btn-success position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-04">
+                Launch modal
+            </button>
+
+            <div class="modal fade position-absolute show" id="example-04" aria-labelledly="exampleModalLabel" aria-modal="true" role="dialog" tabindex="-1">
+                <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 500px; min-width: 320px">
+                    <div class="modal-content rounded-3">
+                        <div class="modal-header px-4 pb-4 pt-5 px-5 border-0">
+                            <h2 class="modal-title fw-bold">
+                                Sign up for free
+                            </h2>
+                            <button class="btn-close"></button>
+                        </div>
+                        <div class="modal-body px-4 pb-5 pt-0 px-sm-5">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="Email address">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">password</label>
+                            </div>
+
+                            <button class="btn btn-primary btn-lg w-100 mb-2 rounded-3">Sign up</button>
+                            <small class="text-muted">By clicking Sign up, you agree to the terms of use</small>
+                            <hr class="my-4">
+
+
+
+                            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                            <button class="btn btn-outline-dark w-100 mb-2 py-2 rounded-3">
+                                <i class="fa-brands fa-twitter me-1"></i>
+                                <span>Sign up with Twitter</span>
+                            </button>
+
+                            <button class="btn btn-outline-primary w-100 mb-2 py-2 rounded-3">
+                                <i class="fa-brands fa-facebook me-1"></i>
+                                <span>Sign up with Facebook</span>
+                            </button>
+
+                            <button class="btn btn-outline-secondary w-100 mb-2 py-2 rounded-3">
+                                <i class="fa-brands fa-github me-1"></i>
+                                <span>Sign up with GitHub</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="space"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
